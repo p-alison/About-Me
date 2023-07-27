@@ -20,12 +20,12 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack {
                 VStack{
-                    Text("Hi, I'm Alison!")
+                    Text("Hi, I'm Alison")
                         .font(.custom("Quicksand-VariableFont_wght", size: 30))
                         .font(.title)
                         .fontWeight(.black)
                         .padding()
-                    Text("Click on the facts to learn more about me.")
+                    Text("Click on the facts to learn more about me!")
                         .font(.custom("Quicksand-VariableFont_wght", size: 20))
                         .multilineTextAlignment(.center)
                     Image("me")
